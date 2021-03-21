@@ -16,7 +16,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        label.text = Inputname
+        label.text = "こんにちは、\(Inputname) さん"
         
         // Do any additional setup after loading the view.
     }
